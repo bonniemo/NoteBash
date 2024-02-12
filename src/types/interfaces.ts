@@ -6,8 +6,8 @@ export interface Note {
     note: string;
 }
 
+// Fix this interface
 export interface ApiResponse {
-    success: boolean;
     notes: Note[];
 }
 

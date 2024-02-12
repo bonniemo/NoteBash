@@ -1,0 +1,11 @@
+.card {
+    min-height: 75vh;
+    width: 45%;
+    min-width: 30rem;
+    padding: 2rem;
+    background-color: $c-bg-card;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;  
+  }

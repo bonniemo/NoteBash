@@ -1,0 +1,15 @@
+@mixin button {   
+    background-color: $c-bg-btn;
+    width: 60%;
+    align-self: center;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    margin: 1rem;
+    font-size: 1rem;
+
+    &:hover {
+      background-color: darken($c-bg-btn, 10%);
+    }
+  }
