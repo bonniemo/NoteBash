@@ -3,7 +3,6 @@ import baseUrl from "./API/apiConfig";
 import { Note, ApiResponse, ApiError } from "./types/interfaces";
 
 const btnShowNote = document.querySelector(".btn__show-note") as HTMLElement; 
-// let user = "";
 
 async function postNote() {
   const inputNoteTitle = document.querySelector(".input__note-title") as HTMLInputElement;
@@ -48,14 +47,13 @@ async function getNotes(username: string) {
       console.error('Failed to get notes:', response.data.message);
     }
     
-    // user = username;
   } catch (error) {
     console.log(error);
   }
 }
 
 function displayNotes(notes: Note[]) {
-  const notesArticle = document.querySelector(".notes-article") as HTMLElement;
+  const notesArticle = document.querySelector(".user-notes") as HTMLElement;
 
   notesArticle.innerHTML = "";
 
