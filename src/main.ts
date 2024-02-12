@@ -3,7 +3,7 @@ import baseUrl from "./API/apiConfig";
 import { Note, ApiResponse, ApiError } from "./types/interfaces";
 
 const btnShowNote = document.querySelector(".btn__show-note") as HTMLElement; 
-let user = "";
+// let user = "";
 
 async function postNote() {
   const inputNoteTitle = document.querySelector(".input__note-title") as HTMLInputElement;
@@ -48,7 +48,7 @@ async function getNotes(username: string) {
       console.error('Failed to get notes:', response.data.message);
     }
     
-    user = username;
+    // user = username;
   } catch (error) {
     console.log(error);
   }
@@ -75,7 +75,7 @@ function displayNotes(notes: Note[]) {
     notesArticle.appendChild(newNotes);
   });
 
-  console.log(user);
+  // console.log(user);
 
   document.querySelectorAll(".deleteBtn").forEach((deleteButton) => {
     deleteButton.addEventListener("click", () => {
@@ -94,14 +94,14 @@ function displayNotes(notes: Note[]) {
       const noteNewNote = parentNode?.getAttribute("note-note");
       const noteUsername = parentNode?.getAttribute("note-username");
 
-      const note = {
+      const updatedNote = {
         username: noteUsername,
         title: noteTitle,
         note: noteNewNote,
         id: noteID,
       } as Note;
 
-      updateNote(note);
+      updateNote(updatedNote);
     });
   });
 }
