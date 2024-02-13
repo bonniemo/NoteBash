@@ -30,6 +30,6 @@ Please be aware that NoteBash does not currently implement user authentication o
 - **Technologies Used:** NoteBash is built using TypeScript, Vite, Axios for handling HTTP requests, and Sass for styling.
 
 **Troubleshooting:**
-If you encounter any issues during the installation or usage of NoteBash, it's recommended to troubleshoot by searching for solutions online. You can use search engines like Google to find relevant information and resources to resolve your problem. Additionally, consider asking your rubber duck for assistance.
+If you encounter any issues during the installation or usage of NoteBash, it's recommended to troubleshoot by searching for solutions online. You can use search engines like Google to find relevant information and resources to resolve your problem. Additionally, consider asking your rubber duck for assistance. You do know that the duck got promoted at work because it solved every problem by ducking right into it, right?
 
 Feel free to explore and customize NoteBash according to your needs. Happy noting!
