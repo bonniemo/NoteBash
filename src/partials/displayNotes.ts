@@ -1,5 +1,5 @@
 
-import { Note } from "../types/interfaces";
+import { Note } from "./types/interfaces";
 import { updateNote, deleteNote } from "./updateDelete";
 
 

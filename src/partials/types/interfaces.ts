@@ -9,11 +9,12 @@ export interface Note {
 // Fix this interface
 export interface ApiResponse {
     notes: Note[];
+    status: number;
 }
 
-export interface ApiError {
-    message: string
-    status: number
+export interface ApiError <T, D> {
+    message: T;
+    status: D;
   }
 
 

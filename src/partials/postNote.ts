@@ -1,6 +1,6 @@
 import axios from "axios";
-import baseUrl from "./apiConfig";
-import { Note } from "../types/interfaces";
+import baseUrl from "../API/apiConfig";
+import { Note } from "./types/interfaces";
 import { getNotes } from "./getNotes";
 
 export const btnShowNote = document.querySelector(".btn__show-note") as HTMLElement; 

@@ -1,3 +1,3 @@
-import { postNote } from "./API/postNote";
+import { postNote } from "./partials/postNote";
 
 postNote();
