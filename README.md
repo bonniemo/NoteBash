@@ -20,7 +20,7 @@ NoteBash is a straightforward web application designed for creating, updating, v
 - **Viewing Notes:** Enter the username and click "Get my Notes" to retrieve saved notes associated with that user.
 - **Editing and Deleting Notes:** Each note includes options to edit or delete it.
 
-## Security:**
+**Security:**
 Please be aware that NoteBash does not currently implement user authentication or authorization. As a result, anyone who knows your username can access, view, and edit your notes. Exercise caution when using this application, and avoid using sensitive information in your notes.
 
 **Note:** This application is intended for demonstration and educational purposes and should not be used to store confidential or sensitive data.
